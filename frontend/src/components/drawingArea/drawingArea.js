@@ -1,7 +1,13 @@
 import "./drawingArea.css";
 
 const DrawingArea = () => {
-  return <canvas id="display-area"></canvas>;
+  return (
+    <>
+      <div className="display-wrapper">
+        <canvas id="display-area"></canvas>
+      </div>
+    </>
+  );
 };
 
 export default DrawingArea;

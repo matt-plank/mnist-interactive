@@ -1,4 +1,14 @@
-#display-area {
+.display-wrapper {
   height: 100%;
   width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-wrapper #display-area {
+  height: 25rem;
+  width: 25rem;
+  border: 1px solid black;
 }
