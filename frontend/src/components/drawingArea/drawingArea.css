@@ -8,9 +8,5 @@
 }
 
 .display-wrapper #display-area {
-  height: 25rem;
-  width: 100%;
-  max-width: 25rem;
-
   border: 1px dashed var(--primary);
 }
