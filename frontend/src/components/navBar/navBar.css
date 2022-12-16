@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 5rem;
+  width: 100%;
+
+  background-color: var(--primary);
+}
+
+.nav h1 {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  color: white;
+  font-family: sans-serif;
+}
+
+.nav h2 {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  color: white;
+  font-family: sans-serif;
+}
